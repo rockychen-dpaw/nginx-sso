@@ -1,0 +1,8 @@
+<requestHeaderAuthentication>
+  <id>-486b4d88:14e75ee2d4e:-8000</id>
+  <name>nginx_sso</name>
+  <className>org.geoserver.security.filter.GeoServerRequestHeaderAuthenticationFilter</className>
+  <roleSource class="org.geoserver.security.config.PreAuthenticatedUserNameFilterConfig$PreAuthenticatedUserNameRoleSource">Header</roleSource>
+  <rolesHeaderAttribute>remote-user-roles</rolesHeaderAttribute>
+  <principalHeaderAttribute>remote-user</principalHeaderAttribute>
+</requestHeaderAuthentication>
